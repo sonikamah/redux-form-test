@@ -1,0 +1,59 @@
+exports[`test Login Component snapshot 1`] = `
+<div
+  className="login-container">
+  <div
+    className="loginRow-spacing row">
+    <div
+      className="col-md-offset-8 col-md-3">
+      <form
+        onSubmit={[Function]}>
+        <div
+          className="form-login">
+          <h4>
+            User Login
+          </h4>
+          <input
+            className="form-control input-sm chat-input"
+            name="username"
+            onChange={[Function]}
+            placeholder="username"
+            type="text"
+            value="" />
+          <p
+            className="error-message">
+            
+          </p>
+          <br />
+          <input
+            className="form-control input-sm chat-input"
+            name="password"
+            onChange={[Function]}
+            placeholder="password"
+            type="password"
+            value="" />
+          <p
+            className="error-message">
+            
+          </p>
+          <br />
+          <div
+            className="wrapper">
+            <span
+              className="group-btn">
+              <button
+                className="btn btn-lg btn-primary"
+                type="submit"
+                value="Submit">
+                Sign In
+              </button>
+               
+              <i
+                className="fa fa-sign-in" />
+            </span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
